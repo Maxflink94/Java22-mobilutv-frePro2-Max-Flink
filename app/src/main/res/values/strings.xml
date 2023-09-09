@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">FredagsProjekt2</string>
+    <string name="registrera_nytt_konto">Registrera Nytt Konto</string>
+    <string name="logga_in">Logga in</string>
+    <string name="ange_anv_ndarnamn">Ange Email</string>
+    <string name="ange_l_senord">Ange Lösenord</string>
+    <string name="hej_hej">Hej</string>
+    <string name="du_r_nu_inloggad">Du är nu Inloggad!</string>
+    <string name="ditt_fulla_namn">Ditt fulla namn</string>
+    <string name="ditt_telefonnr">Ditt Telefonnr</string>
+    <string name="man">Man</string>
+    <string name="kvinna">Kvinna</string>
+    <string name="har_k_rkort">Har Körkort</string>
+    <string name="f_delsedatum_10_tecken">Födelsedatum (10 tecken)</string>
+    <string name="submit">Submit</string>
+    <string name="uppdatera_info">Uppdatera info</string>
+    <string name="nytt_l_senord">Nytt Lösenord</string>
+    <string name="skapa_anv_ndare">Skapa användare</string>
+    <string name="bak_t">Bakåt</string>
+    <string-array name="spinnerArray">
+        <item>Visa min information (Funkar ej ÄN)</item>
+        <item>Logga ut</item>
+    </string-array>
+</resources>
