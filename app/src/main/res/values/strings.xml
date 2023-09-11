@@ -18,7 +18,7 @@
     <string name="skapa_anv_ndare">Skapa användare</string>
     <string name="bak_t">Bakåt</string>
     <string-array name="spinnerArray">
-        <item>Visa min information (Funkar ej ÄN)</item>
+        <item>Visa min information</item>
         <item>Logga ut</item>
     </string-array>
 </resources>

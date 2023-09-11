@@ -36,7 +36,7 @@ class MainActivity2 : AppCompatActivity(), AdapterView.OnItemSelectedListener {
     override fun onItemSelected(parent: AdapterView<*>, view: View?, pos: Int, id: Long) {
         val selectedItem = parent.getItemAtPosition(pos).toString()
         when (selectedItem) {
-            "Visa min information (Funkar ej ÄN)" -> {
+            "Visa min information" -> {
 
                 val sharedPreferences = getSharedPreferences("MyPrefs", Context.MODE_PRIVATE)
                 val loggedInEmail = sharedPreferences.getString("email", "")
@@ -52,7 +52,7 @@ class MainActivity2 : AppCompatActivity(), AdapterView.OnItemSelectedListener {
 
                             val fullName = userDocument.getString("fullname")
                             val email = userDocument.getString("email")
-                            val date = userDocument.getLong("birthdate")
+                            val date = userDocument.getString("birthdate")
                             val sex = userDocument.getString("sex")
                             val driverLicense = userDocument.getBoolean("driverlicense")
 
